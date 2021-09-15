@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    padding: 0%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+  background-image: url("../bg.jpg");
+}
+
+
+
+h1 {
+margin: 0 0 20px;
+font-weight: 400;
+color: #ffffff;
+text-align: center;
+font-weight: 900px;
+}
+p {
+margin: 0 0 5px;
+}
+.main-block {
+color:white;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+min-height: 100vh;
+
+background-size: 1300PX 600px;
+margin-top: 0%;
+
+
+
+
+}
+.div1{
+    background-color:rgba(14, 36, 231, 0.068);
+    padding:20px;
+    box-shadow: 0 2px 5px #666;
+
+}
+form {
+padding: 25px;
+margin: 25px;
+background: #4e494900; 
+
+
+
+}
+.fas {
+margin: 25px 10px 0;
+font-size: 72px;
+color: #fff;
+}
+.fa-envelope {
+transform: rotate(-20deg);
+}
+.fa-at , .fa-mail-bulk{
+transform: rotate(10deg);
+}
+.in,textarea {
+width: calc(100% - 18px);
+padding: 8px;
+margin-bottom: 20px;
+border:0;
+outline: none;
+background-color: #4e494900;
+color:white;
+font-weight: 600px;
+border-bottom: 1px solid white;
+}
+input::placeholder {
+color: rgb(235, 230, 230);
+}
+button {
+width: 100%;
+padding: 10px;
+border: none;
+background:rgba(91, 99, 209, 0.794);
+font-size: 16px;
+font-weight: 400;
+color: rgb(255, 255, 255);
+}
+button:hover {
+background: #333;
+}    
+@media (min-width: 568px) {
+
+
+.main-block {
+flex-direction: row;
+float:inline-start;
+}
+
+}
